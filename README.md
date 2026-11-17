@@ -18,8 +18,8 @@ CARA MEMAKAI TEMPLATE INI
 Manajemen TheLook ingin mengetahui:
 
 1. **Analisis terkait dengan traffic source. melalui apa user mengakses TheLook E-commerce**
-2. **Di mana uang kita dihasilkan?** Kategori mana yang menyumbang pendapatan dan margin terbesar.
-3. **Apakah pelanggan kembali berbelanja?**
+2. **Pendepatan per negara dan departemen? urutkan dari yang paling besar**
+3. 
 
 ## Data & metode
 
@@ -34,10 +34,7 @@ Manajemen TheLook ingin mengetahui:
 
 ### 1. Berdasarkan data pertanggal 11 November 2026, Channel Traffic terbanyak melalui "Search" sebanyak 69956 Sedangkan yang paling sedikit dengan jumlah user sebanyak 3979 adalah "Display"
 
-
-### 2. <Judul temuan>
-
-<Dari query P2.>
+### 2. Department dan Negara yang memberikan pendapatan tertinggi dipegang oleh China bak untuk department 'Men' dan 'Women' yang kemudian disusul oleh united states Sedangkan Brasil berada di bagian Top 5 Terbawah dengan department Men
 
 ### 3. <Judul temuan>
 
