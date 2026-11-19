@@ -19,7 +19,7 @@ Manajemen TheLook ingin mengetahui:
 
 1. **Analisis terkait dengan traffic source. melalui apa user mengakses TheLook E-commerce**
 2. **Pendepatan per negara dan departemen? urutkan dari yang paling besar**
-3. 
+3. **Analisa revenue, bagaimana uang thelook ecommerce dihasilkan**
 
 ## Data & metode
 
@@ -36,9 +36,8 @@ Manajemen TheLook ingin mengetahui:
 
 ### 2. Department dan Negara yang memberikan pendapatan tertinggi dipegang oleh China bak untuk department 'Men' dan 'Women' yang kemudian disusul oleh united states Sedangkan Brasil berada di bagian Top 5 Terbawah dengan department Men
 
-### 3. <Judul temuan>
+### 3. Margin tertinggi dipegang oleh kategori blazers n jackets sedangkan terendah adalah Clothing Sets
 
-<Dari query P3.>
 
 > Tip: tambahkan screenshot tabel hasil query (atau grafik dari tab **Chart** BigQuery) ke folder `images/`, lalu tampilkan dengan `![deskripsi](images/nama_file.png)`.
 
