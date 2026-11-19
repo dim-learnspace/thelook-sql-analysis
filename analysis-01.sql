@@ -33,3 +33,25 @@ LIMIT 5;
 -- Temuan
 -- Department dan Negara yang memberikan pendapatan tertinggi dipegang oleh China bak untuk department 'Men' dan 'Women' yang kemudian disusul oleh united states
 -- Sedangkan Brasil berapa di bagian Top 5 Terbawah dengan department Men
+
+-- 3. 
+
+WITH pendapatan_per_kategori AS (
+  SELECT
+  p.category,
+  SUM(oi.sale_price) AS pendapatan,
+  SUM(oi.sale_price - p.cost) AS margin
+FROM bigquery-public-data.thelook_ecommerce.order_items AS oi
+JOIN bigquery-public-data.thelook_ecommerce.products AS p
+ON oi.product_id = p.id
+WHERE oi. status NOT IN ('Cancelled', 'Returned')
+GROUP BY p.category
+)
+SELECT 
+  category,
+  margin / pendapatan * 100 AS margin_pct
+FROM pendapatan_per_kategori
+ORDER BY margin_pct DESC
+
+-- Temuan
+-- Margin tertinggi dipegang oleh kategori blazers n jackets sedangkan terendah adalah Clothing Sets
